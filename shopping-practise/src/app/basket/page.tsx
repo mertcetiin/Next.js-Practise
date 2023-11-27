@@ -2,7 +2,7 @@ import React from 'react'
 
 function page() {
     return (
-        <div>basket</div>
+        <div>Basket</div>
     )
 }
 
