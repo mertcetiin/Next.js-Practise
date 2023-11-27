@@ -1,6 +1,10 @@
+export type ProductsType = {
+    id: number;
+    name: string;
+    price: number;
+}
 
-
-export const Products = ([
+export const Products: ProductsType[] = ([
     {
         id: 1,
         name: 'Clothes1',

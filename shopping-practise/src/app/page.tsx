@@ -1,13 +1,11 @@
-import Header from './components/Header'
-import styles from './page.module.css'
-import HomePage from './home/page';
+import Header from './components/Header';
 
 
 export default function Home() {
   return (
     <div>
       <Header />
-      <HomePage />
+      <h1>Welcome Shopping</h1>
     </div>
   )
 }
