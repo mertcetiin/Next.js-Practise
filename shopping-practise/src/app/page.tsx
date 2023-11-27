@@ -1,9 +1,11 @@
+import Header from './components/Header'
 import styles from './page.module.css'
 
 export default function Home() {
   return (
     <div>
-      <h1>Hello</h1>
+      <Header />
+      <h1>Welcome Shopping</h1>
     </div>
   )
 }
